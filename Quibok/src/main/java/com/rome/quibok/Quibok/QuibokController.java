@@ -48,10 +48,6 @@ public class QuibokController {
         while((bytesRead = inputStream.read(buffer)) != -1) {
             outputStream.write(buffer, 0, bytesRead);
         }
-//        ByteArrayOutputStream buffer = new ByteArrayOutputStream();
-//        InputStream in = getClass()
-//                .getResourceAsStream("/com/baeldung/produceimage/data.txt");
-//        return buffer.toByteArray(in);
     }
 
 }
